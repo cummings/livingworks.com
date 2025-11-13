@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ChevronDown } from "lucide-react";
 export default function Home() {
+  console.log("Home");
   return (
     <div
       className="flex min-h-screen items-center justify-center bg-black font-sans text-white font-medium text-xl overflow-x-hidden"
