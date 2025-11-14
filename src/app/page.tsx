@@ -1,13 +1,14 @@
+
 import Image from "next/image";
 import { ChevronDown } from "lucide-react";
-
+import { LetsConnect } from "@/components/lets-connect";
 export default function Home() {
   return (
     <div
       className="flex min-h-screen items-center justify-center bg-black font-sans text-white font-medium text-xl overflow-x-hidden"
     >
       <main className="flex min-h-screen w-full flex-col items-center bg-black overflow-x-hidden">
-      <div className="flex flex-col items-center gap-3 absolute top-[15%] z-10 px-4">
+      <div className="flex flex-col items-center gap-3 absolute top-[5%] sm:top-[15%] z-10 px-4">
             <div className=' top-0 z-10'>
               <Image src="images/logo-mark.svg" alt="Living Works" width={36} height={36} />
 
@@ -59,6 +60,7 @@ export default function Home() {
             <div className='text-center my-10 text-md lg:text-xl'>
               <div>It's personal, not business.</div>
             </div>
+            {/* <LetsConnect /> */}
             </div>
             <div className='flex flex-col items-center justify-center text-center mt-16 w-full'>
               <div className='uppercase opacity-50 text-sm mb-4'>Exits</div>
@@ -67,7 +69,6 @@ export default function Home() {
                 <div><Image src="images/experian.svg" alt="Living Works" width={100} height={100} /></div>
                 <div><Image src="images/universal.svg" alt="Living Works" width={100} height={100} /></div>
                 <div><Image src="images/seaport.svg" alt="Living Works" width={100} height={100} /></div>
-                
               </div>
               
             </div>
