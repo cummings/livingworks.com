@@ -8,7 +8,7 @@ export default function Home() {
       className="flex min-h-screen items-center justify-center bg-black font-sans text-white font-medium text-xl overflow-x-hidden"
     >
       <main className="flex min-h-screen w-full flex-col items-center bg-black overflow-x-hidden">
-      <div className="flex flex-col items-center gap-3 absolute top-[5%] sm:top-[15%] z-10 px-4">
+      <div className="flex flex-col items-center gap-3 absolute top-[10dvh] z-10 px-4">
             <div className=' top-0 z-10'>
               <Image src="images/logo-mark.svg" alt="Living Works" width={36} height={36} />
 
