@@ -44,7 +44,7 @@ export default function Home() {
             <div className='font-bold '>LivingWorks Venture Catalysts</div>
             <div>a different kind of venture firm</div>
           </div>
-          <div className='mt-2'><ChevronDown /></div>
+          <div className='-mt-1'><ChevronDown /></div>
       </div>
         <div className='min-h-screen py-12 md:py-16 flex flex-col items-center justify-center w-full bg-black px-4'>
           <div className='flex flex-col items-center justify-center gap-3 max-w-4xl w-full'>
